@@ -1,0 +1,21 @@
+{
+  "name": "xmtool",
+  "version": "0.0.1",
+  "description": "A collection of common use tools, making life and work more convenient.",
+  "main": "index.js",
+  "author": "ssruoyan",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "mobx": "^5.14.2",
+    "mobx-react": "^6.1.4",
+    "react": "^16.11.0",
+    "react-router": "^5.1.2"
+  }
+}

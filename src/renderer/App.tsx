@@ -1,12 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  render() {
-    return <div>App</div>
-  }
+const App = () => {
+  return <div>This is an electron app</div>
 }
 
-export default App;
+export default App

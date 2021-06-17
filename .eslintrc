@@ -1,0 +1,6 @@
+{
+  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@typescript-eslint/recommended"],
+  "ignorePatterns": ["./build/**/*"]
+}

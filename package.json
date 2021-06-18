@@ -4,7 +4,7 @@
   "description": "A collection of common use tools, to make life and work more convenient.",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve -c ./build/webpack.config.renderer.js"
+    "start:renderer": "cross-env webpack serve --config ./build/webpack.config.renderer.babel.js"
   },
   "author": "ssruoyan",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "@babel/preset-env": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.14.5",
+    "@babel/register": "^7.14.5",
     "@types/jest": "^26.0.23",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.7",
@@ -22,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "babel-loader": "^8.2.2",
+    "cross-env": "^7.0.3",
     "eslint": "^7.28.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
